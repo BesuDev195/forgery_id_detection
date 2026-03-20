@@ -9,4 +9,4 @@ venv/
 env/
 myvenv/
 .env
-.venv
+.venvmyvenv/
