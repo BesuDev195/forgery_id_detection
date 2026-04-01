@@ -1,4 +1,4 @@
-from src.model import train_model, predict
+from models.model import train_model, predict
 
 if __name__ == "__main__":
     print("Training model...")

@@ -3,12 +3,12 @@ from collections import Counter
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
-from src.acquisition import load_image
-from src.enhancement import enhance_image
-from src.restoration import restore_image
-from src.morphology import apply_morphology
-from src.segmentation import segment_image
-from src.features import extract_features
+from acqusition.acquisition import load_image
+from preprocessing.enhancement import enhance_image
+from preprocessing.restoration import restore_image
+from preprocessing.morphology import apply_morphology
+from segmentation.segmentation import segment_image
+from features.features import extract_features
 
 
 def process_image(path):
